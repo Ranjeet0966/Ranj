@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Photocrew</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.jpg "width="70px;" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallary</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Fashion & Portfolio</a></li>
+                  <li><a class="dropdown-item" href="#">Pre-wedding</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Wedding</a></li>
+                  <li><a class="dropdown-item" href="#">Events</a></li>
+                  <li><a class="dropdown-item" href="#">others</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!--slider-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="wedding....jpg"  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>WEDDING</h5>
+              <p><h4>Memories are the bookmarks of our lives,marking the pages we never want to forget</h4></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="prewedding.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PRE-WEDDING</h5>
+              <p><h5>  A successful marriage requires falling in love many times, always with the same person.</h5></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Fashion.webp" height="900px" width="90px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>FASHION & PORFOLIO</h5>
+              <p><h4>Every moment is unique and special, and we strive to preserve them in all their glory.</h4></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <figure class="text-center mt-5">
+        <blockquote class="blockquote">
+          <p>About Us.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer text-dark ">
+            We are passionate photographers dedicated to capturing life’s most special moments. Our goal is to create stunning, artistic images that capture the essence of your most cherished memories. We specialize in all kinds of photography and are committed to making your experience enjoyable and stress-free. <cite title="Source Title">YOUNGEST TEAM</cite>
+        </figcaption>
+      </figure>
+      <h3 class="text-center">OUR WORKS</h3>
+      <img src="wedding....jpg" width="550px" height="280px" class="rounded float-start" alt="...">
+<img src="prewedding.jpg"width="518px" height="280px" class="rounded float-end" alt="...">
+<img src="Fashion.webp"width="435px" height="280px" class="rounded float-mid" alt="...">
+<img src="wedding2.webp" width="518px" height="280px" class="rounded float-end ml-3" alt="...">
+<img src="wedding1.jpg"width="435px " height="280px" class="rounded float-mid "  alt="...">
+<img src="wedding3.jpg "width="545px" height="280px" class="rounded float-start " alt="...">
+<div class="inner-container">
+ <!--
+ <div class="col-lg-4 col-md-4  col-sm-4 video-thumb">
+  <figure><a href="wedvideo.mp4"><img src="gallery/videothumb/1586847333.jpeg" alt="wedding-video" class="img-responsive"></a>
+    <span class="video-icon"><i class="fa fa-play-circle-o"></i></span>
+  </figure>
+  <p>Rahul + Tania Lipdub Right Here Right Now</p>
+</div>
+</div>-->
+
+<p>
+  <h3 class="text-center mt-5 mb-2">WEDDING-FILM</h3>
+</p>
+<hr>
+
+<style>
+  .video-center {
+    display: block;
+    margin-left: auto;;
+    margin-right: auto;
+  }
+</style>
+
+<video controls class="video-center">
+  <source src="wedvideo.mp4 "  type="video/mp4" />
+  <source src="wedvideo.mp4" type="video/webm" />
+  <track kind="subtitles" src="subtitles_es.vtt" srclang="es" label="Spanish" />
+</video>
+
+
+      <div class="container-fluid">
+        <!--tagline-->
+        <div class="row">
+            <div class="col-12">
+                
+            </div>
+        </div>
+      </div>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
